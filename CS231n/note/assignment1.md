@@ -15,7 +15,13 @@
 
 ## 1 k-近邻分类器
 
+熟悉numpy的使用，如argsort、dot、sum等以及broadcast机制。
+
+Standard Deviation，即为标准差。
+
 ## 2 训练一个支持向量机
+
+
 
 ## 3 实现一个Softmax分类器
 
