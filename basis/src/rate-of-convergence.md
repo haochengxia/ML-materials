@@ -8,7 +8,17 @@ $$
 \lim _{n \rightarrow \infty} \frac{\left|x_{n+1}-x^{*}\right|}{\left|x_{n}-x^{*}\right|^{q}}=\mu
 $$
 
-接下来用一个例子了解收敛速率的计算。蒙特卡洛方法的收敛速率是$O\left(\frac{1}{\sqrt{N}}\right)$，数列均值为$\mu$，方差为$\sigma ^ 2$。
+而在离散化方法中，收敛速度的表示方法为，
+
+$$
+\begin{array}{l}
+\left|x_{n}-L\right|<C n^{-q} \text { for all } n\\
+\end{array}
+$$
+
+即，$\left|x_{n}-L\right|=\mathcal{O}\left(n^{-q}\right)$。
+
+接下来用一个例子了解离散方法中收敛速度的计算。蒙特卡洛方法的收敛速率是$O\left(\frac{1}{\sqrt{N}}\right)$，数列均值为$\mu$，方差为$\sigma ^ 2$。
 
 $$
 \mathbb{E}\left[ | \frac{1}{N} \sum_{i=1}^{n} X_{i}-\mu | \right] \rightarrow O\left(\frac{1}{\sqrt{N}}\right)
